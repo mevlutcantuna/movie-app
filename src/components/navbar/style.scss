@@ -3,6 +3,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  padding: 0 10%;
 
   &_left{
     display: flex;
@@ -54,5 +55,25 @@
       right: 10px;
       top: calc((3.5rem - 24px)/2);
     }
+  }
+}
+
+
+@media only screen and (max-width: 750px){
+  .navbar{
+    padding: 0 5%;
+  }
+}
+
+
+@media only screen and (max-width: 660px) {
+  .navbar_search-bar{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .navbar_left_title{
+    display: none;
   }
 }
