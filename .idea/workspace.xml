@@ -5,21 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbf130c7-f543-47e0-9777-2790945b4df9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/prettier.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/backgroundImage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/circleElement.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/searchLogo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/FavouritePage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/MainPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/MovieDetailPage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/SearchPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/navbar/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navbar/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/navbar/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navbar/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +75,8 @@
       <workItem from="1642857850711" duration="271000" />
       <workItem from="1642866045619" duration="7564000" />
       <workItem from="1642884483697" duration="13000" />
-      <workItem from="1642926687652" duration="5345000" />
+      <workItem from="1642926687652" duration="6037000" />
+      <workItem from="1642932741945" duration="493000" />
     </task>
     <servers />
   </component>
