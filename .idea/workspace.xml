@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbf130c7-f543-47e0-9777-2790945b4df9" name="Changes" comment="">
+    <list default="true" id="bbf130c7-f543-47e0-9777-2790945b4df9" name="Changes" comment="changed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,6 +24,14 @@
   </component>
   <component name="GithubDefaultAccount">
     <option name="defaultAccountId" value="bb74bc8c-eb7c-40a1-947c-60135cef044f" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="bb74bc8c-eb7c-40a1-947c-60135cef044f" />
+        <option name="url" value="https://github.com/mevlutcantuna/movie-ap.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -76,8 +84,16 @@
       <workItem from="1642866045619" duration="7564000" />
       <workItem from="1642884483697" duration="13000" />
       <workItem from="1642926687652" duration="6037000" />
-      <workItem from="1642932741945" duration="493000" />
+      <workItem from="1642932741945" duration="1057000" />
     </task>
+    <task id="LOCAL-00001" summary="changed">
+      <created>1642937125556</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1642937125556</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,6 +115,8 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/mern-dictionary" />
     </ignored-roots>
+    <MESSAGE value="changed" />
+    <option name="LAST_COMMIT_MESSAGE" value="changed" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
