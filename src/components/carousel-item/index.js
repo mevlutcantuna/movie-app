@@ -2,13 +2,34 @@ import "./style.scss";
 
 import { useNavigate } from "react-router-dom";
 import IMDB from "../../assets/IMDB-icon.svg";
+import { useDispatch, useSelector } from "react-redux";
+import {
+  addToFavourite,
+  removeFromFavourite,
+} from "../../store/actions/favourite";
+import { useEffect, useState } from "react";
 
 const CarouselItem = ({ movie }) => {
+  const [isAdded, setIsAdded] = useState();
   const navigate = useNavigate();
+  const dispatch = useDispatch();
+  const favourites = useSelector((state) => state.favouriteReducer.favourites);
 
   const viewDetail = () => {
     navigate(`/movie/${movie?.id}`);
   };
+
+  const addToFav = () => {
+    dispatch(addToFavourite(movie));
+  };
+
+  const removeFromFav = () => {
+    dispatch(removeFromFavourite(movie?.id));
+  };
+
+  useEffect(() => {
+    setIsAdded(favourites?.some((item) => item.id === movie.id));
+  }, [favourites, movie.id]);
 
   return (
     <div className="carousel-item">
@@ -29,7 +50,11 @@ const CarouselItem = ({ movie }) => {
         <div className="carousel-item_infos_title">{movie?.original_title}</div>
         <div className="carousel-item_infos_summary">{movie?.overview}</div>
         <div className="carousel-item_infos_buttons">
-          <button>Add Favourite</button>
+          {isAdded ? (
+            <button onClick={removeFromFav}>Remove</button>
+          ) : (
+            <button onClick={addToFav}>Add Favourite</button>
+          )}
           <button onClick={viewDetail}>View Detail</button>
         </div>
       </div>

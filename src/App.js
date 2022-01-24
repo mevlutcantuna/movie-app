@@ -7,8 +7,16 @@ import MovieDetailPage from "./pages/MovieDetailPage";
 import SearchPage from "./pages/SearchPage";
 import MainPage from "./pages/MainPage";
 import FavouritePage from "./pages/FavouritePage";
+import { useEffect } from "react";
+import { useDispatch } from "react-redux";
+import { syncLocalAndReducer } from "./store/actions/favourite";
 
 function App() {
+  const dispatch = useDispatch();
+  useEffect(() => {
+    dispatch(syncLocalAndReducer());
+  }, []);
+
   return (
     <div className="App">
       <Navbar />

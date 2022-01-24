@@ -5,21 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd4711ff-d8b3-4c26-b895-a974f05b075d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/no-movie.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/back-navbar/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/back-navbar/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helper/message.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/actions/favourite.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/constants/favourite.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/reducers/favourite.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/carousel-item/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/carousel-item/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/movie-card/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/movie-card/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/movie-card/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/movie-card/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/navbar/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navbar/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/search-bar/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/search-bar/style.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/FavouritePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/FavouritePage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/SearchPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/SearchPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/actions/search.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions/search.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +83,7 @@
       <workItem from="1643010237365" duration="9491000" />
       <workItem from="1643020330633" duration="1000" />
       <workItem from="1643020333874" duration="16000" />
-      <workItem from="1643047886007" duration="5835000" />
+      <workItem from="1643047886007" duration="13970000" />
     </task>
     <servers />
   </component>
