@@ -10,6 +10,7 @@ import {
   addToFavourite,
   removeFromFavourite,
 } from "../../store/actions/favourite";
+import { Link } from "react-router-dom";
 
 const MovieCard = ({ movie }) => {
   const [isAdded, setIsAdded] = useState();
@@ -48,13 +49,15 @@ const MovieCard = ({ movie }) => {
           )}
         </div>
       </div>
-      <div className="movie-card_imdb">
-        <img src={IMDB} alt="imdb" />
-        <span>{movie?.vote_average}</span>
-      </div>
-      <div className="movie-card_year">{movie?.release_date.slice(0, 4)}</div>
-      <div className="movie-card_title">{movie?.original_title}</div>
-      <div className="movie-card_summary">{movie?.overview}</div>
+      <Link to={`/movie/${movie?.id}`}>
+        <div className="movie-card_imdb">
+          <img src={IMDB} alt="imdb" />
+          <span>{movie?.vote_average}</span>
+        </div>
+        <div className="movie-card_year">{movie?.release_date.slice(0, 4)}</div>
+        <div className="movie-card_title">{movie?.original_title}</div>
+        <div className="movie-card_summary">{movie?.overview}</div>
+      </Link>
     </div>
   );
 };

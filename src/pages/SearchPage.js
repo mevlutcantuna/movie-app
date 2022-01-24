@@ -28,9 +28,7 @@ const SearchPage = () => {
         >
           {searchedMovies?.length > 0 ? (
             searchedMovies?.map((movie) => (
-              <Link to={`/movie/${movie?.id}`}>
-                <MovieCard movie={movie} key={movie?.id} />
-              </Link>
+              <MovieCard movie={movie} key={movie?.id} />
             ))
           ) : (
             <div>Not Found Movie</div>
