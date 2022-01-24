@@ -1,0 +1,51 @@
+.movie-card{
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+  width: 14rem;
+  padding: 1rem;
+  cursor: pointer;
+
+  &:hover{
+    box-shadow: rgba(99, 99, 99, 0.2) 0 2px 8px 0;
+    background-color: #f3f3f3;
+
+  }
+
+  &_image{
+    width: 12rem;
+    height: 14rem;
+    display: flex;
+    justify-content: center;
+    border-radius: 6px;
+    margin-bottom: 1rem;
+  }
+
+  &_imdb{
+    display: flex;
+    align-items: center;
+    margin-bottom: .5rem;
+    & span{
+      margin-left: .5rem;
+      font-weight: bold;
+      font-size: 14px;
+      color: black;
+    }
+  }
+
+  &_year{
+    color: #F5C518;
+  }
+
+  &_title{
+    font-weight: bold;
+    font-size: 1.25rem;
+    color: black;
+  }
+
+  &_summary{
+    height: 11rem;
+    content-visibility: auto;
+    color: black;
+  }
+}
