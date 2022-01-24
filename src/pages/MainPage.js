@@ -1,5 +1,6 @@
 import Intro from "../components/intro";
 import SearchBar from "../components/search-bar";
+import PopularMovies from "../components/popular-movies";
 
 const MainPage = () => {
   return (
@@ -16,7 +17,9 @@ const MainPage = () => {
       >
         <SearchBar />
       </div>
-      <div style={{ marginTop: "3rem" }}>Popular Movies Part</div>
+      <div>
+        <PopularMovies />
+      </div>
     </div>
   );
 };

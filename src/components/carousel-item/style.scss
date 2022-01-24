@@ -1,0 +1,119 @@
+.carousel-item{
+  display: flex;
+  background-color: #f3f3f3;
+  padding: 2rem 4rem;
+  margin: 0 4rem;
+  border-radius: 8px;
+
+
+  &_image img{
+    border-radius: 4px;
+    margin-right: 2rem;
+  }
+
+  &_infos{
+    display: flex;
+    flex-direction: column;
+
+    &_imdb{
+      display: flex;
+      align-items: center;
+      margin-bottom: 1rem;
+
+      & span{
+        margin-left: 0.5rem;
+        font-weight: bold;
+      }
+    }
+
+    &_year{
+      color: #F5C518;
+    }
+
+    &_title{
+        font-weight: bold;
+      font-size: 1.5rem;
+    }
+
+    &_summary{
+      height: 8rem;
+      content-visibility: auto;
+      margin-bottom: 1rem;
+    }
+
+    &_buttons{
+      display: flex;
+      justify-content: space-between;
+      margin: 0 1rem;
+
+      & button:nth-child(1){
+        padding: 0.75rem 1rem;
+        background-color: #F5C518;
+        color: #f3f3f3;
+        border: none;
+        outline: none;
+        border-radius: 8px;
+        cursor: pointer;
+
+        &:hover{
+          background-color: #b08b00;
+        }
+      }
+
+      & button:nth-child(2){
+        background-color: #fff;
+        color: #F5C518;
+        padding: 0.75rem 1rem;
+        border: none;
+        outline: none;
+        border-radius: 8px;
+        cursor: pointer;
+        
+        &:hover{
+          background-color: #fce8a7;
+        }
+      }
+
+    }
+
+  }
+}
+
+
+@media only screen and (max-width: 1170px) {
+  .carousel-item{
+    margin: 0 .5rem;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .carousel-item{
+    padding: 2rem 2rem;
+  }
+
+  .carousel-item_infos_buttons{
+    margin: 0;
+  }
+}
+
+
+@media only screen and (max-width: 650px){
+  .carousel-item{
+    display: flex;
+    flex-direction: column;
+
+    &_image{
+      text-align: center;
+
+      & img{
+        margin: 1rem 0;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 430px){
+  .carousel-item{
+    padding: 1rem;
+  }
+}

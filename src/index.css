@@ -6,4 +6,10 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style-type: none;
-    font-family: 'Poppins', sans-serif;}
+    font-family: 'Poppins', sans-serif;
+}
+
+.styles-module_carousel-base__3keqD{
+    display: flex;
+    align-items: center;
+}

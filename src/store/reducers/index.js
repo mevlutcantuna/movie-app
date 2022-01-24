@@ -1,7 +1,8 @@
-import {combineReducers} from "redux";
+import { combineReducers } from "redux";
 import Search from "./search";
-
+import ConstantMovies from "./constant-movies";
 
 export const reducers = combineReducers({
-    searchReducer:Search
-})
+  searchReducer: Search,
+  constantMoviesReducer: ConstantMovies,
+});

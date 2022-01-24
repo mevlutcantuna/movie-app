@@ -5,15 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd4711ff-d8b3-4c26-b895-a974f05b075d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/arrow-right.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/chevron.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/intro/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/intro/style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/search-bar/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/search-bar/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/IMDB-icon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/carousel-item/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/carousel-item/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/popular-movies/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/popular-movies/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/related-movies/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/related-movies/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/actions/constant-movies.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/constants/constant-movies.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/reducers/constant-movies.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/navbar/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/navbar/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/MainPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/MainPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +35,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="2465SEtAvcI08hz9FEGe0odI6wM" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -35,9 +47,11 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/store/reducers" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -48,6 +62,10 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/store/reducers" />
+      <recent name="$PROJECT_DIR$/src/store/constants" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/assets" />
     </key>
@@ -61,12 +79,17 @@
       <option name="presentableId" value="Default" />
       <updated>1642938195840</updated>
       <workItem from="1642938198137" duration="9077000" />
-      <workItem from="1642947398431" duration="289000" />
+      <workItem from="1642947398431" duration="6990000" />
+      <workItem from="1642976217201" duration="3086000" />
+      <workItem from="1643010237365" duration="6378000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName=".env" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -78,6 +101,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
