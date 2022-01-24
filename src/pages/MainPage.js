@@ -4,7 +4,7 @@ import PopularMovies from "../components/popular-movies";
 
 const MainPage = () => {
   return (
-    <div style={{ position: "relative" }}>
+    <div style={{ position: "relative", marginBottom: "2rem" }}>
       <Intro />
       <div
         style={{

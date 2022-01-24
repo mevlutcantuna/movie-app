@@ -14,11 +14,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route exact path="/" element={<MainPage />} />
-        <Route
-          exact
-          path="/search?name=can&type=horror&year=2000"
-          element={<SearchPage />}
-        />
+        <Route exact path="/search" element={<SearchPage />} />
         <Route exact path="/movie/:id" element={<MovieDetailPage />} />
         <Route path="/my-favourites" element={<FavouritePage />} />
       </Routes>

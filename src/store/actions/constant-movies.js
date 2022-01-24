@@ -6,12 +6,12 @@ import {
   GET_RELATED_MOVIES_LOADING,
   GET_RELATED_MOVIES_SUCCESS,
 } from "../constants/constant-movies";
-import { api } from "../../utils/api";
+import { getMoviesApi } from "../../utils/api";
 
 export const getPopularMovies = () => async (dispatch) => {
   dispatch({ type: GET_POPULAR_MOVIES_LOADING, payload: true });
   try {
-    const response = await api(
+    const response = await getMoviesApi(
       "/popular?api_key=644c8949ded7d68ea2417f06b191df75&language=en-US&page=1"
     );
     const sortedResponse = response.data.results.slice(0, 6);
@@ -30,7 +30,7 @@ export const getRelatedMovies = () => async (dispatch) => {
   dispatch({ type: GET_RELATED_MOVIES_LOADING, payload: true });
 
   try {
-    const response = await api(
+    const response = await getMoviesApi(
       "/top_rated?api_key=644c8949ded7d68ea2417f06b191df75&language=en-US&page=1"
     );
     const sortedResponse = response.data.results.slice(0, 6);

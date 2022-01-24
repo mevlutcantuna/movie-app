@@ -5,24 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd4711ff-d8b3-4c26-b895-a974f05b075d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/IMDB-icon.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/carousel-item/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/carousel-item/style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/popular-movies/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/popular-movies/style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/related-movies/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/related-movies/style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/actions/constant-movies.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/constants/constant-movies.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/reducers/constant-movies.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/movie-card/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/movie-card/style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/search-bar/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/search-bar/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/MainPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/MainPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/actions/constant-movies.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions/constant-movies.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/actions/search.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions/search.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/reducers/search.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/reducers/search.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/utils/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +73,9 @@
       <workItem from="1642938198137" duration="9077000" />
       <workItem from="1642947398431" duration="6990000" />
       <workItem from="1642976217201" duration="3086000" />
-      <workItem from="1643010237365" duration="6378000" />
+      <workItem from="1643010237365" duration="9491000" />
+      <workItem from="1643020330633" duration="1000" />
+      <workItem from="1643020333874" duration="16000" />
     </task>
     <servers />
   </component>
