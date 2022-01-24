@@ -12,6 +12,10 @@
 
   }
 
+  &_img-logo{
+    position: relative;
+  }
+
   &_image{
     width: 12rem;
     height: 14rem;
@@ -19,6 +23,12 @@
     justify-content: center;
     border-radius: 6px;
     margin-bottom: 1rem;
+  }
+
+  &_fav-buttons{
+    position: absolute;
+    bottom: -1rem;
+    right: -1rem;
   }
 
   &_imdb{
