@@ -2,7 +2,6 @@ import { useSelector } from "react-redux";
 import BackNavbar from "../components/back-navbar";
 import MovieCard from "../components/movie-card";
 import SearchBar from "../components/search-bar";
-import { Link } from "react-router-dom";
 
 import { Spin } from "antd";
 

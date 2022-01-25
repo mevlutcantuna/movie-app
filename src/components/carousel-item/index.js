@@ -7,16 +7,16 @@ import {
   addToFavourite,
   removeFromFavourite,
 } from "../../store/actions/favourite";
-import { useEffect, useState } from "react";
+import IsAddedToFavs from "../../helper/isAddedToFav";
 
 const CarouselItem = ({ movie }) => {
-  const [isAdded, setIsAdded] = useState();
   const navigate = useNavigate();
   const dispatch = useDispatch();
   const favourites = useSelector((state) => state.favouriteReducer.favourites);
 
   const viewDetail = () => {
     navigate(`/movie/${movie?.id}`);
+    window.location.reload();
   };
 
   const addToFav = () => {
@@ -26,10 +26,6 @@ const CarouselItem = ({ movie }) => {
   const removeFromFav = () => {
     dispatch(removeFromFavourite(movie?.id));
   };
-
-  useEffect(() => {
-    setIsAdded(favourites?.some((item) => item.id === movie.id));
-  }, [favourites, movie.id]);
 
   return (
     <div className="carousel-item">
@@ -50,7 +46,7 @@ const CarouselItem = ({ movie }) => {
         <div className="carousel-item_infos_title">{movie?.original_title}</div>
         <div className="carousel-item_infos_summary">{movie?.overview}</div>
         <div className="carousel-item_infos_buttons">
-          {isAdded ? (
+          {IsAddedToFavs(favourites, movie) ? (
             <button onClick={removeFromFav}>Remove</button>
           ) : (
             <button onClick={addToFav}>Add Favourite</button>

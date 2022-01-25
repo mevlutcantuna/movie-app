@@ -5,9 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cd4711ff-d8b3-4c26-b895-a974f05b075d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/detail-movie-card/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/detail-movie-card/style.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helper/isAddedToFav.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/movie-card/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/movie-card/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/carousel-item/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/carousel-item/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/related-movies/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/related-movies/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/MovieDetailPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/MovieDetailPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/SearchPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/SearchPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/actions/constant-movies.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions/constant-movies.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/actions/search.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/actions/search.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +61,7 @@
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="prettierjs.PrettierConfiguration.Package" value="$PROJECT_DIR$/node_modules/prettier" />
     <property name="settings.editor.selected.configurable" value="settings.javascript.prettier" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -77,7 +87,8 @@
       <workItem from="1643010237365" duration="9491000" />
       <workItem from="1643020330633" duration="1000" />
       <workItem from="1643020333874" duration="16000" />
-      <workItem from="1643047886007" duration="15914000" />
+      <workItem from="1643047886007" duration="16095000" />
+      <workItem from="1643101504078" duration="4885000" />
     </task>
     <servers />
   </component>

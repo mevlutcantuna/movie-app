@@ -12,7 +12,7 @@ export const getPopularMovies = () => async (dispatch) => {
   dispatch({ type: GET_POPULAR_MOVIES_LOADING, payload: true });
   try {
     const response = await getMoviesApi(
-      "/popular?api_key=644c8949ded7d68ea2417f06b191df75&language=en-US&page=1"
+      `/popular?api_key=${process.env.REACT_APP_TMDB_API_KEY}&language=en-US&page=1`
     );
     const sortedResponse = response.data.results.slice(0, 6);
     dispatch({ type: GET_POPULAR_MOVIES_LOADING, payload: false });
@@ -31,7 +31,7 @@ export const getRelatedMovies = () => async (dispatch) => {
 
   try {
     const response = await getMoviesApi(
-      "/top_rated?api_key=644c8949ded7d68ea2417f06b191df75&language=en-US&page=1"
+      `/top_rated?api_key=${process.env.REACT_APP_TMDB_API_KEY}&language=en-US&page=1`
     );
     const sortedResponse = response.data.results.slice(0, 6);
     dispatch({ type: GET_RELATED_MOVIES_LOADING, payload: false });

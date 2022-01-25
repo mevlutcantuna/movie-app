@@ -9,7 +9,7 @@ export const getSearchMovies = (name, year) => async (dispatch) => {
   dispatch({ type: SEARCH_MOVIE_LOADING, payload: true });
   try {
     const response = await searchMoviesApi(
-      `?api_key=644c8949ded7d68ea2417f06b191df75&language=en-US&query=${name}&page=1&year=${year}`
+      `?api_key=${process.env.REACT_APP_TMDB_API_KEY}&language=en-US&query=${name}&page=1&year=${year}`
     );
     dispatch({ type: SEARCH_MOVIE_LOADING, payload: false });
     return dispatch({
