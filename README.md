@@ -8,6 +8,16 @@
 - You can see details of movies on detail page
 - You can see favourites on favourite page
 
+### Technologies and Packages
+- React
+- Redux
+- Hooks
+- React-Router-Dom
+- SASS
+- Redux-Thunk
+- Redux-Devtools-Extension
+- @trendyol-js/react-carousel
+
 <img src="src/screen-photos/1.png" alt="img" width="40%" height="90"/>
 <img src="src/screen-photos/2.png" alt="img" width="40%" height="90"/>
 <img src="src/screen-photos/4.png" alt="img" width="40%"/>
