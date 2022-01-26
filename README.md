@@ -18,13 +18,13 @@
 - Redux-Devtools-Extension
 - @trendyol-js/react-carousel
 
-<img src="src/screen-photos/1.png" alt="img" width="40%" height="90"/>
-<img src="src/screen-photos/2.png" alt="img" width="40%" height="90"/>
-<img src="src/screen-photos/4.png" alt="img" width="40%"/>
-<img src="src/screen-photos/5.png" alt="img" width="40%" height="144"/>
-<img src="src/screen-photos/6.png" alt="img" width="40%"/>
-<img src="src/screen-photos/7.png" alt="img" width="40%" height="115"/>
-<img src="src/screen-photos/3.png" alt="img" width="40%"/>
+<img src="screen-photos/1.png" alt="img" width="40%"/>
+<img src="screen-photos/2.png" alt="img" width="40%"/>
+<img src="screen-photos/4.png" alt="img" width="40%"/>
+<img src="screen-photos/5.png" alt="img" width="40%"/>
+<img src="screen-photos/6.png" alt="img" width="40%"/>
+<img src="screen-photos/7.png" alt="img" width="40%"/>
+<img src="screen-photos/3.png" alt="img" width="40%"/>
 
 
 ### Setup
