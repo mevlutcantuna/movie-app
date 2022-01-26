@@ -1,4 +1,4 @@
-#MOVIE - APP
+# MOVIE - APP
 
 ### Features
 - Search movies order by type, name ,year 
