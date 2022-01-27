@@ -5,6 +5,7 @@
   - You can search movies in two place
 - Add and remove movies to favourite 
   - Every movie card has add and remove ability
+  - Also you add them to local storage
 - You can see details of movies on detail page
 - You can see favourites on favourite page
 
