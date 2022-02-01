@@ -18,7 +18,7 @@
 - Redux-Thunk
 - Redux-Devtools-Extension
 - @trendyol-js/react-carousel
-
+ 
 <img src="screen-photos/1.png" alt="img" width="50%"/>
 <img src="screen-photos/2.png" alt="img" width="50%"/>
 <img src="screen-photos/4.png" alt="img" width="50%"/>
