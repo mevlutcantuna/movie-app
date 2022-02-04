@@ -24,7 +24,7 @@
 <img src="screen-photos/4.png" alt="img" width="50%"/>
 <img src="screen-photos/5.png" alt="img" width="50%"/>
 <img src="screen-photos/6.png" alt="img" width="50%"/>
-
+      
 
 ### Setup
 To setup the project, run the following on your terminal in the order:
