@@ -7,7 +7,7 @@
   - Every movie card has add and remove ability
   - Also you add them to local storage
 - You can see details of movies on detail page
-- You can see favourites on favourite page
+- You can see favourites on favourite page 
 
 ### Technologies and Packages
 - React
