@@ -22,6 +22,7 @@ const MovieDetailPage = () => {
   useEffect(() => {
     getMovieDetail();
     dispatch(getRelatedMovies());
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [dispatch]);
 
   return (
