@@ -12,7 +12,8 @@
 /build
 
 .idea
-
+package.lock.json
+yarn.lock
 # misc
 .env
 .DS_Store
