@@ -16,6 +16,6 @@ describe('Main Page Tests', () => {
 
     it('should render main page',() => {
         render(<Setup/>)
-        screen.getByText(/welcome to/i).toBeInTheDocument()
+        expect(screen.getByText(/welcome to/i)).toBeInTheDocument()
     })
 });
