@@ -48,6 +48,7 @@ const Navbar = () => {
         <div className="navbar_search-bar">
           <img src={SearchLogo} alt="search-logo" />
           <input
+            aria-label="navbar-input"
             value={name}
             onChange={handleChangeName}
             type="text"
