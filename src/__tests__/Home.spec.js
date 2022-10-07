@@ -28,7 +28,13 @@ describe("Home Page Tests", () => {
     expect(await screen.findByText(/Orphan: First Kill/i)).toBeInTheDocument();
   });
 
-  it("should add popular movie to favourites", () => {
+  it("should add popular movie to favourites", async () => {
     renderWithRedux(<App />);
+    expect(await screen.findByText(/Orphan: First Kill/i)).toBeInTheDocument();
+    const favButtons = screen.getAllByText(/Add Favourite/i)[0];
+
+    userEvent.click(favButtons);
+    const favs = JSON.parse(localStorage.getItem("favs"));
+    expect(favs).toHaveLength(1);
   });
 });
