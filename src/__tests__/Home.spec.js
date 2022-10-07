@@ -25,7 +25,10 @@ describe("Home Page Tests", () => {
 
   it("should render popular movies", async () => {
     renderWithRedux(<App />);
+    expect(await screen.findByText(/Orphan: First Kill/i)).toBeInTheDocument();
+  });
 
-    expect(await screen.findByText(/Fall/i)).toBeInTheDocument();
+  it("should add popular movie to favourites", () => {
+    renderWithRedux(<App />);
   });
 });

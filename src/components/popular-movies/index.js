@@ -6,7 +6,7 @@ import CarouselItem from "../carousel-item";
 import { Carousel } from "@trendyol-js/react-carousel";
 import Arrow from "../../assets/arrow-right.svg";
 
-const RightArrow = () => {
+const RightArrow = ({ testId }) => {
   return (
     <div
       style={{
@@ -19,13 +19,14 @@ const RightArrow = () => {
         justifyContent: "center",
         cursor: "pointer",
       }}
+      data-testid={testId}
     >
       <img src={Arrow} alt="arrow" />
     </div>
   );
 };
 
-const LeftArrow = () => {
+const LeftArrow = ({ testId }) => {
   return (
     <div
       style={{
@@ -38,6 +39,7 @@ const LeftArrow = () => {
         justifyContent: "center",
         cursor: "pointer",
       }}
+      data-testid={testId}
     >
       <img
         style={{
@@ -70,8 +72,8 @@ const PopularMovies = () => {
             slide={1}
             infinite={true}
             responsive={true}
-            rightArrow={<RightArrow />}
-            leftArrow={<LeftArrow />}
+            rightArrow={<RightArrow testId="home-right-arrow" />}
+            leftArrow={<LeftArrow testId="home-left-arrow" />}
           >
             {popularMovies.map((movie) => (
               <CarouselItem movie={movie} key={movie.id} />
