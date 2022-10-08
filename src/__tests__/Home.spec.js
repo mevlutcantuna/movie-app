@@ -6,6 +6,7 @@ import { renderWithRedux } from "../testUtils";
 describe("Home Page Tests", () => {
   beforeEach(() => {
     window.history.pushState({}, "", "/");
+    localStorage.setItem("favs", null);
   });
 
   it("should render home page", () => {
@@ -36,5 +37,16 @@ describe("Home Page Tests", () => {
     userEvent.click(favButtons);
     const favs = JSON.parse(localStorage.getItem("favs"));
     expect(favs).toHaveLength(1);
+  });
+
+  it("should remove popular movie that added to local storage, from local storage", async () => {
+    renderWithRedux(<App />);
+    expect(await screen.findByText(/Orphan: First Kill/i)).toBeInTheDocument();
+
+    userEvent.click(screen.getAllByText(/Add Favourite/i)[0]);
+    expect(JSON.parse(localStorage.getItem("favs"))).toHaveLength(1);
+
+    userEvent.click(screen.getAllByText(/Remove/i)[0]);
+    expect(JSON.parse(localStorage.getItem("favs"))).toHaveLength(0);
   });
 });
