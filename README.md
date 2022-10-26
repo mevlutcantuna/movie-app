@@ -18,6 +18,7 @@
 - Redux-Thunk
 - Redux-Devtools-Extension
 - @trendyol-js/react-carousel
+- Unit and Integration tests with Jest React Testing Library 
  
 <img src="screen-photos/1.png" alt="img" width="50%"/> 
 <img src="screen-photos/2.png" alt="img" width="50%"/>
